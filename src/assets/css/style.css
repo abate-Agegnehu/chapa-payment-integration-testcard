@@ -1,0 +1,16 @@
+/* Add these lines to import Tailwind's default styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+.newobrutalism {
+  box-shadow: 1em 1em black;
+}
+.newtotal {
+  box-shadow: 1em 1em yellow, 2em 2em blue;
+  box-shadow: 2em 2em rgba(255, 255, 0, 0.687), -2em -2em rgba(0, 0, 255, 0.704),
+    -2em 2em rgba(0, 128, 0, 0.635), 2em -2em rgba(255, 0, 0, 0.646);
+}
